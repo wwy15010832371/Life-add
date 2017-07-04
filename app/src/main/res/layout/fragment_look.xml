@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.u2_project.fragment.LookFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:background="#7878"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textColor="#1d2121"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="宝 宝 看"/>
+    <RadioGroup
+        android:orientation="horizontal"
+        android:id="@+id/lRadio"
+        android:background="#7706c9fa"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <RadioButton
+            android:checked="true"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:id="@+id/lrd_button1"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="儿  歌"
+            android:textColor="@color/text_color"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:id="@+id/lrd_button2"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="故  事"
+            android:textColor="@color/text_color"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:id="@+id/lrd_button3"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="动 画 片"
+            android:textColor="@color/text_color"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lLinear"></LinearLayout>
+
+</LinearLayout>
